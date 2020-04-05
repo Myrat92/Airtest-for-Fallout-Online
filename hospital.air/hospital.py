@@ -7,6 +7,8 @@ using("MyTools.air")
 from MyTools import BuySSR
 from MyTools import Leave
 from MyTools import PickGood
+from MyTools import ForFailCase
+from MyTools import ForNotExitCase
  
 auto_setup(__file__)
 
@@ -263,8 +265,9 @@ def begin():
 
     Leave()
 
-
+ForNotExitCase()
 while 1:
+    ForFailCase()
     begin()
 
 

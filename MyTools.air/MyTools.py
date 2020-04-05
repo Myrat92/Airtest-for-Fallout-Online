@@ -40,12 +40,27 @@ def Leave():
     wait(Template(r"tpl1585914669744.png", record_pos=(0.407, 0.244), resolution=(1920, 1080)))
 
     touch(Template(r"tpl1585914676151.png", record_pos=(0.411, 0.247), resolution=(1920, 1080)))
+    
+    
+def ForFailCase():
+    if exists(Template(r"tpl1586022381034.png", record_pos=(-0.008, 0.052), resolution=(1920, 1080))):
+        touch(Template(r"tpl1586022395192.png", record_pos=(-0.007, 0.051), resolution=(1920, 1080)))
+
+        wait(Template(r"tpl1585914669744.png", record_pos=(0.407, 0.244), resolution=(1920, 1080)))
+
+        touch(Template(r"tpl1585914676151.png", record_pos=(0.411, 0.247), resolution=(1920, 1080)))
+        
+        
+def ForNotExitCase():
+    if exists(Template(r"tpl1585914508778.png", record_pos=(0.46, -0.247), resolution=(1920, 1080))):
+        touch(Template(r"tpl1585914508778.png", record_pos=(0.46, -0.247), resolution=(1920, 1080)))
+        Leave()
 
     
 def PickGood(x, y, m, n):
 #     touch(m,((n+y)/2))
 #     dx = ((m - x) // 10)
-    dx = 100
+    dx = 80
 #     hx = ((n - y) // 3)
     hx = 45
     for i in range(x, m, dx):
