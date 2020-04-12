@@ -174,9 +174,9 @@ def begin():
     swipe(Template(r"tpl1585835960345.png", record_pos=(0.163, -0.085), resolution=(1920, 1080)), vector=[-0.1685, 0.0286])
 
 
-    wait(Template(r"tpl1585835971025.png", record_pos=(0.331, 0.016), resolution=(1920, 1080)))
+    wait(Template(r"tpl1585925712067.png", record_pos=(0.399, 0.001), resolution=(1920, 1080)))
 
-    touch(Template(r"tpl1585835971025.png", record_pos=(0.331, 0.016), resolution=(1920, 1080)))
+    touch(Template(r"tpl1585925712067.png", record_pos=(0.399, 0.001), resolution=(1920, 1080)))
 
     touch(Template(r"tpl1585925712067.png", record_pos=(0.399, 0.001), resolution=(1920, 1080)))
 

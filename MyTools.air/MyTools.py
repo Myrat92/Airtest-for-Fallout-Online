@@ -56,13 +56,13 @@ def ForNotExitCase():
         touch(Template(r"tpl1585914508778.png", record_pos=(0.46, -0.247), resolution=(1920, 1080)))
         Leave()
 
-    
+        
 def PickGood(x, y, m, n):
-#     touch(m,((n+y)/2))
-#     dx = ((m - x) // 10)
+    touch((m,n))
+    touch((m,y))
+    touch((m,(n+y)//2))
     dx = 80
-#     hx = ((n - y) // 3)
-    hx = 45
+    hx = 40
     for i in range(x, m, dx):
         for j in range(y, n, hx):
             touch((i,j))
