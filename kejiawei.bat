@@ -1,0 +1,2 @@
+"C:\software\AirtestIDE_2020-01-21_py3_win64\AirtestIDE" runner "C:\Projects\Airtest-for-Fallout-Online\kejiawei.air"  --device Android://127.0.0.1:5037/emulator-5554 --log "C:\Users\zjseg\AppData\Local\Temp\AirtestIDE\scripts\45933d8f782a21b676db0b15c7a00cdb"
+%0

@@ -135,6 +135,7 @@ def begin():
     touch(Template(r"tpl1585835781210.png", record_pos=(0.4, 0.007), resolution=(1920, 1080)))
 
 
+         
 
     # 'rectangle': [(586, 473), (586, 601), (1329, 601), (1329, 473)],
     wait(Template(r"tpl1585844242807.png", record_pos=(-0.001, -0.001), resolution=(1920, 1080)))
@@ -149,9 +150,11 @@ def begin():
     touch((x,y))
 
 
-    touch(Template(r"tpl1585835900544.png", record_pos=(-0.226, 0.102), resolution=(1920, 1080)))
+    touch(Template(r"tpl1587056179890.png", target_pos=6, record_pos=(-0.325, 0.097), resolution=(1920, 1080))) #result': (335, 725)
 
 
+    if not exists(Template(r"tpl1585844340359.png", record_pos=(0.002, 0.094), resolution=(1920, 1080))):
+        touch(Template(r"tpl1587056179890.png", target_pos=6, record_pos=(-0.325, 0.097), resolution=(1920, 1080))) #result': (335, 725)
 
     wait(Template(r"tpl1585844340359.png", record_pos=(0.002, 0.094), resolution=(1920, 1080)))
 
